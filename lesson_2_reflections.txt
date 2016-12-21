@@ -1,0 +1,10 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+A .git file is added in the directory which we want to turn into a git 
+repository which stores the metadata about the history of the files in 
+the repository. Initially there is no commit, we have to make it ourselves.
+That makes sense as we might not want the current state o be committed and
+also we would to assoiate a meaningful message with the commit. So all files 
+are untracked currently.
+
+
