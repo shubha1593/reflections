@@ -1,0 +1,61 @@
+How did viewing diff between two versions help you spot the bug ?
+
+The probability of error in the new version is highest where changes 
+were introduced in the previously working version. And diff command 
+helps us focus our attention just on that, showing anything removed 
+from the old version and anything new added to the new version.
+
+
+How could having easy access to the entire history of a file make you 
+a more efficient programmer in the long term?
+
+By entire record with us we can look back and think of some good 
+programming practices that we have introduced and that can be introduced.
+Can keep track of how much progress made from previous version. Can 
+make debugging much more faster. Can switch to any of the previuos 
+versions if any mess made during testing some new feature. Can reuse 
+any of the previous version functionality needed in any other project.
+
+
+What do you think are the pros and cons of manually choosing when to 
+create a commit, like you do in Git, vs having versions automatically 
+saved, like Google Docs does?
+
+Cons of manually creating a commit is that the user will have to remember
+to commit at every suitable instant. And pro being that user gets
+more flexibilty and freedom to create his/her own checkpoints whenever
+some logical unit of work is done. The user will get more well planned 
+commits having unit of work which makes debugging and lot of other task 
+easier, rather than having random commits.
+
+
+Why do you think some version control systems, like Git, allow saving multiple 
+files in one commit, while others, like Google Docs, treat each file separately?
+
+Saving multiple files in one commit is needed if the files are interrelated 
+and changing any one will have an impact on the other. So it's better to 
+save a version of every file in a repository instead of individually commiting 
+every file.
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log shows files changed in each commit with a short message about the change
+made. And git diff tells about the differences (lines deleted and lines added) 
+between the versions of a file committed.
+
+
+How might using version control make you more confident to make changes that could 
+break something?
+
+I know I can revert back to any of the previous working version anytime by 
+git checkout, so I won't be holding back from trying something out due to the 
+fear of breaking something. 
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+For a few projects that i am looking forward to do and also keep it as a skill 
+under my toolkit for job purposes.
+
+
