@@ -12,7 +12,7 @@ a more efficient programmer in the long term?
 By entire record with us we can look back and think of some good 
 programming practices that we have introduced and that can be introduced.
 Can keep track of how much progress made from previous version. Can 
-make debugging much more faster. Can switch to any of the previuos 
+make debugging much more faster. Can switch to any of the previous 
 versions if any mess made during testing some new feature. Can reuse 
 any of the previous version functionality needed in any other project.
 
@@ -23,7 +23,7 @@ saved, like Google Docs does?
 
 Cons of manually creating a commit is that the user will have to remember
 to commit at every suitable instant. And pro being that user gets
-more flexibilty and freedom to create his/her own checkpoints whenever
+more flexibility and freedom to create his/her own checkpoints whenever
 some logical unit of work is done. The user will get more well planned 
 commits having unit of work which makes debugging and lot of other task 
 easier, rather than having random commits.
@@ -34,7 +34,7 @@ files in one commit, while others, like Google Docs, treat each file separately?
 
 Saving multiple files in one commit is needed if the files are interrelated 
 and changing any one will have an impact on the other. So it's better to 
-save a version of every file in a repository instead of individually commiting 
+save a version of every file in a repository instead of individually committing 
 every file.
 
 

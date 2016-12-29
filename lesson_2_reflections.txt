@@ -4,7 +4,56 @@ A .git file is added in the directory which we want to turn into a git
 repository which stores the metadata about the history of the files in 
 the repository. Initially there is no commit, we have to make it ourselves.
 That makes sense as we might not want the current state o be committed and
-also we would to assoiate a meaningful message with the commit. So all files 
+also we would to associate a meaningful message with the commit. So all files 
 are untracked currently.
+git init (pwd turned into git repository)
 
 
+How is the staging area different from the working directory and the repository? 
+What value do you think it offers?
+
+The files in working directory are untracked, git repository doesn't know about 
+it currently while the files in repository are committed, git maintains a full 
+history of it's versions from the start. The staging area lies in between of 
+these two. Remember we wanted to make a commit per one logical change. So instead
+of committing the whole working directory we add the files which we want to commit 
+together in the staging area.
+git add <file> (add file to staging area), 
+git status, 
+git reset <file> (to remove from staging area)
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+We can add anything (and only those things) we consider to be a part of one logical 
+change to the staging area, no matter if there are more files that we changed. Make 
+a commit so that all these changes are converted into a version. If you made any other 
+changes you can make another commit for them.
+
+
+What are some situations when branches would be helpful in keeping your history 
+organized? How would branches help?
+
+When we want different features in different versions, branches would be helpful.
+We can use branching when we want to maintain a working version but also 
+simultaneously experiment out new stuff.
+
+
+How do the diagrams help you visualize the branch structure?
+
+A diagram helps visualize the branch structure as a kind of a tree. Able to see 
+the parent relation and reachability of any commit.
+
+
+What is the result of merging two branches together? Why do we represent it in the 
+diagram the way we do?
+
+All the changes in the branches to be merged is brought together into a single 
+merged commit. Diagrammatically it makes it clear that all the commits on the branches 
+merged are accessible from the merged commit, where commits will be sorted by timestamp.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Git's automatic merging saves us from doing it manually when there are no conflicts.
+In case of conflicts which git can't resolve, a manual merging is done. 
