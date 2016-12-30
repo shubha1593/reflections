@@ -56,4 +56,4 @@ merged are accessible from the merged commit, where commits will be sorted by ti
 What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
 
 Git's automatic merging saves us from doing it manually when there are no conflicts.
-In case of conflicts which git can't resolve, a manual merging is done. 
+In case of conflicts which git can't resolve, manually remove the conflicts. 
